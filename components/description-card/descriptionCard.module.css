@@ -1,0 +1,27 @@
+.desc-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.desc-text {
+  font-family: Roboto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.desc-title {
+  font-style: regular;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.desc-value {
+  font-style: medium;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25px;
+}

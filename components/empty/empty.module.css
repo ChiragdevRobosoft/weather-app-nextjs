@@ -1,0 +1,24 @@
+.empty {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.empty-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.empty-content > p {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: medium;
+  line-height: 21px;
+}

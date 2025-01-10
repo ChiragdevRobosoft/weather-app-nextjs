@@ -1,0 +1,167 @@
+.container {
+  margin-top: 24px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 11px;
+}
+
+.loading-container {
+  margin-top: 24px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    overflow-y: scroll;
+  }
+}
+
+.text-content {
+  color: white;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.text-content > p {
+  font-style: medium;
+  font-size: 20px;
+}
+
+.add-fav {
+  font-style: medium;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.factive {
+  font-style: medium;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #ffe539;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-content {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.status-icon {
+  width: 80px;
+  height: 84px;
+  padding: 0;
+}
+
+.temp-container {
+  display: flex;
+  align-items: baseline;
+  width: 80%;
+  height: 75px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: medium;
+  color: white;
+  text-align: end;
+  align-items: center;
+  width: 70%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .temp {
+    font-size: 60px;
+  }
+}
+
+.deg-cont {
+  width: 30%;
+  height: 30px;
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+  padding: 0;
+  border-radius: 2px;
+}
+
+.deg {
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deg:hover {
+  background-color: lightgray;
+  color: #e32843;
+}
+
+.active {
+  background-color: white;
+  color: #e32843;
+}
+
+.weather-type {
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: regular;
+  color: white;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 35px;
+  padding-bottom: 48px;
+  padding-left: 81px;
+  padding-right: 102px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .description-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 50px;
+  }
+}

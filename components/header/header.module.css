@@ -1,0 +1,40 @@
+.header {
+  margin-top: 35px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchbox {
+  width: 458px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  padding-left: 14px;
+  padding-right: 15px;
+}
+.searchbox:focus {
+  outline: none;
+}
+.searchbox::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .searchbox {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .searchbox {
+    width: 300px;
+  }
+}

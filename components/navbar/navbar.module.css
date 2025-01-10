@@ -1,0 +1,64 @@
+.nav-bar {
+  margin-top: 44px;
+  width: 100%;
+  height: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--my-roboto-font);
+  font-style: regular;
+  color: white;
+  margin-bottom: 23px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-family: var(--my-roboto-font);
+  font-style: regular;
+  color: white;
+}
+
+.nav-menu li {
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+}
+
+.nav-menu .active {
+  color: #ffd639;
+}
+
+.nav-menu .active:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background-color: #ffd639;
+}
+
+.nav-menu a {
+  position: relative;
+  align-items: center;
+  padding: 0 14px 0 14px;
+  background: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav-bar {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .nav-bar {
+    font-size: 7px;
+  }
+}
